@@ -18,6 +18,13 @@
 		076E617D16A730B9006CE31A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 076E617C16A730B9006CE31A /* Default-568h@2x.png */; };
 		076E618016A730B9006CE31A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076E617F16A730B9006CE31A /* ViewController.m */; };
 		076E618316A730B9006CE31A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 076E618116A730B9006CE31A /* ViewController.xib */; };
+		076E618A16A730DE006CE31A /* Sincerely.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076E618916A730DE006CE31A /* Sincerely.framework */; };
+		076E618D16A730FA006CE31A /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076E618B16A730FA006CE31A /* AddressBook.framework */; };
+		076E618E16A730FA006CE31A /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076E618C16A730FA006CE31A /* AddressBookUI.framework */; };
+		076E618F16A73112006CE31A /* Sincerely.framework in Resources */ = {isa = PBXBuildFile; fileRef = 076E618916A730DE006CE31A /* Sincerely.framework */; };
+		076E619116A733CB006CE31A /* demo_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 076E619016A733CB006CE31A /* demo_image.png */; };
+		076E619516A73423006CE31A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076E619316A73423006CE31A /* SecondViewController.m */; };
+		076E619616A73423006CE31A /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 076E619416A73423006CE31A /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +44,13 @@
 		076E617E16A730B9006CE31A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		076E617F16A730B9006CE31A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		076E618216A730B9006CE31A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		076E618916A730DE006CE31A /* Sincerely.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sincerely.framework; sourceTree = "<group>"; };
+		076E618B16A730FA006CE31A /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		076E618C16A730FA006CE31A /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		076E619016A733CB006CE31A /* demo_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo_image.png; sourceTree = "<group>"; };
+		076E619216A73423006CE31A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		076E619316A73423006CE31A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		076E619416A73423006CE31A /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +58,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				076E618A16A730DE006CE31A /* Sincerely.framework in Frameworks */,
+				076E618D16A730FA006CE31A /* AddressBook.framework in Frameworks */,
+				076E618E16A730FA006CE31A /* AddressBookUI.framework in Frameworks */,
 				076E616716A730B8006CE31A /* UIKit.framework in Frameworks */,
 				076E616916A730B8006CE31A /* Foundation.framework in Frameworks */,
 				076E616B16A730B8006CE31A /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +73,9 @@
 		076E615716A730B8006CE31A = {
 			isa = PBXGroup;
 			children = (
+				076E618B16A730FA006CE31A /* AddressBook.framework */,
+				076E618C16A730FA006CE31A /* AddressBookUI.framework */,
+				076E618916A730DE006CE31A /* Sincerely.framework */,
 				076E616C16A730B8006CE31A /* test-modal-bug */,
 				076E616516A730B8006CE31A /* Frameworks */,
 				076E616316A730B8006CE31A /* Products */,
@@ -88,6 +108,9 @@
 				076E617E16A730B9006CE31A /* ViewController.h */,
 				076E617F16A730B9006CE31A /* ViewController.m */,
 				076E618116A730B9006CE31A /* ViewController.xib */,
+				076E619216A73423006CE31A /* SecondViewController.h */,
+				076E619316A73423006CE31A /* SecondViewController.m */,
+				076E619416A73423006CE31A /* SecondViewController.xib */,
 				076E616D16A730B8006CE31A /* Supporting Files */,
 			);
 			path = "test-modal-bug";
@@ -96,6 +119,7 @@
 		076E616D16A730B8006CE31A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				076E619016A733CB006CE31A /* demo_image.png */,
 				076E616E16A730B8006CE31A /* test-modal-bug-Info.plist */,
 				076E616F16A730B8006CE31A /* InfoPlist.strings */,
 				076E617216A730B8006CE31A /* main.m */,
@@ -163,6 +187,9 @@
 				076E617B16A730B9006CE31A /* Default@2x.png in Resources */,
 				076E617D16A730B9006CE31A /* Default-568h@2x.png in Resources */,
 				076E618316A730B9006CE31A /* ViewController.xib in Resources */,
+				076E618F16A73112006CE31A /* Sincerely.framework in Resources */,
+				076E619116A733CB006CE31A /* demo_image.png in Resources */,
+				076E619616A73423006CE31A /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +203,7 @@
 				076E617316A730B8006CE31A /* main.m in Sources */,
 				076E617716A730B8006CE31A /* AppDelegate.m in Sources */,
 				076E618016A730B9006CE31A /* ViewController.m in Sources */,
+				076E619516A73423006CE31A /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +282,10 @@
 		076E618716A730B9006CE31A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "test-modal-bug/test-modal-bug-Prefix.pch";
 				INFOPLIST_FILE = "test-modal-bug/test-modal-bug-Info.plist";
@@ -265,6 +297,10 @@
 		076E618816A730B9006CE31A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "test-modal-bug/test-modal-bug-Prefix.pch";
 				INFOPLIST_FILE = "test-modal-bug/test-modal-bug-Info.plist";

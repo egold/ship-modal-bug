@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  test-modal-bug
 //
 //  Created by Eric Goldberg on 1/16/13.
@@ -9,9 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "Sincerely/Sincerely.h"
 
-@interface ViewController : UIViewController <SYSincerelyControllerDelegate>
+@interface SecondViewController : UIViewController <SYSincerelyControllerDelegate>
 
-- (IBAction)launchModal:(id)sender;
-- (IBAction)launchModalDeprecated:(id)sender;
+- (IBAction)launchShipModal:(id)sender;
 
 @end
